@@ -77,12 +77,15 @@ section > button{
     height: 40px;
     width: 250px;
     margin-right: 40px;
-    
     border: 1px solid rgba(29, 28, 28, 0.37);
     border-radius: 8px;
+    font-weight: bold;
+    transition: 0.5s;
 }
 
-
+section > button:hover{
+    background-color: #0e7c69;
+}
 
 
 
