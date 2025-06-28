@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <h1>Contact Us</h1>
+    <header>
+      <label for="first-name">First name *</label> 
+      <label for="last-name" id="last-name">Last name *</label> <br>
+        <div class="form">        
+          <input type="text" id="name1"> 
+         <input type="text" id="last-name2">
+        </div>
+      
+    </header>
+    <section>
+        <p>Email Address *</p>
+        <input type="email"  id="emailadd"> 
+        <p id="query">Query Type *</p>
+    
+        <button onclick="teste1()">General Enquiry</button>
+        <button>Support Reques</button>
+    </section>
+    <footer>
+        <p id="msg">Message *</p>
+        <input type="text" id="message"> <br>
+        <input type="checkbox" name="" id="checkbox"> I consent to being contacted by the team * <br>
+      
+        <input type="button" id="submit-btn" value="Submit" onclick="buttonSubmit()">
+    </footer>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/DanFigueredo" target="_blank">Dan Figueredo</a>.
+    </div>
+  </div>
+</body>
+</html>

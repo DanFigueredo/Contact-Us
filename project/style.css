@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #00b193;
+}
+
+#container{
+    border-radius: 20px;
+    
+    background-color: #eee;
+    padding: 50px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+
+h1{
+   
+    padding-bottom: 20px;
+}
+header{
+    padding-bottom: 20px;
+}
+
+
+
+div.form{
+   display: flex;
+   justify-content: center;
+}
+
+.form>input{
+    height: 40px;
+    width: 98%;
+    border: 1px solid rgba(29, 28, 28, 0.37);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 30px; 
+    
+}
+
+
+
+#last-name{
+    text-align: right;
+    margin-left: 215px;
+}
+
+
+
+section{
+    
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+section > input{
+    height: 40px;
+    width: 98%;
+    border: 1px solid rgba(29, 28, 28, 0.37);
+    border-radius: 8px;
+    display: flexbox;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+section > button{
+    
+    height: 40px;
+    width: 250px;
+    margin-right: 40px;
+    
+    border: 1px solid rgba(29, 28, 28, 0.37);
+    border-radius: 8px;
+}
+
+
+
+
+
+
+#query{
+    margin-bottom: 20px;
+}
+
+
+input#message{
+    width: 98%;
+    height: 100px;
+    border: 1px solid rgba(29, 28, 28, 0.37);;
+    border-radius: 8px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#submit-btn{
+    height: 50px;
+    width: 98%;
+    border: 1px solid rgba(29, 28, 28, 0.37);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #0e7c69;
+    color: #eee;
+    transition: 0.5s;
+    font-weight: bolder;
+
+}
+#submit-btn:hover{
+    background-color: #00b193;
+}
